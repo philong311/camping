@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+    /* đây sẽ là selector xóa sự ảnh hưởng mất chiều cao khi sử dụng float */
+}
+.header{
+    background-color: #F8E1DB;
+    padding: 15px 40px;
+}
+.header ul{
+    list-style: none;
+    
+}
+.header ul li {
+    display: inline;
+    /* margin: 0px 15px; */
+    margin-right: 30px;
+}
+.header ul li a {
+    color: black;
+    text-decoration: none;
+}
+/* banner css */
+.banner{
+    background-image: url(./Image/BG.png);
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    
+}
+/* explore */
+.explore{
+    background-color: #FAF4F2;
+    padding: 50px 0;
+}
+.explore .explore__title{
+    text-align: center;
+    color: #8D8D8D;
+}
+.explore .explore_item {
+    float: left;
+    /* calc giúp thực hiện tính toán trả về kết quả với một số trường hợp giá trị truyền vào là số thập phân hoặc cần tính toán phức tạp  */
+    width: calc(100% / 4);
+    padding: 0 15px;
+    box-sizing: border-box;
+    
+    
+  }
+.explore .item_bg{
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.explore .item_bg img{
+    border: 2px solid #FAF4F2;
+    border-radius: 20px;
+    
+}
+.explore .item_bg h3{
+    margin: 10px 0;
+}
+.explore .item_bg button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 0px none #FAF4F2 ;
+    color: #8D8D8D;
+    margin-top: 20px;
+    text-transform: capitalize;
+    
+}
+.explore .item_bg p{
+    color: #8D8D8D;
+}
+.explore .item_bg i{
+    position: absolute;
+    right:60px;
+    top: 60px;
+    background-color:#FAF4F2;
+    border-radius: 12px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+    font-size: 20px;
+}
+/* clear */
+.button-clear{
+    text-align: center;
+    
+}
+.button-clear button{
+    color: #E96F75;
+    border:2px solid #E96F75;
+    border-radius: 20px;
+    padding: 10px 45px;
+
+}
+/* social */
+.social-img{
+    background-color: #F8E1DB;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: block;
+}
+.social-content{
+    position: absolute;
+    padding: 10px;
+    top: 40%;
+    right:30px;
+}
+.social-content h2{
+    font-size: 40px;
+}
+.social-content p{
+    font-size: 20px;
+}
+
